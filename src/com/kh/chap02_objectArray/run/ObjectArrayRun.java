@@ -13,6 +13,11 @@ public class ObjectArrayRun {
 		arr[1] = 20;
 		arr[2] = 30;
 		
+		// for loop문
+		for(int i=0; i<10; i++) {
+			System.out.println(arr[i]);
+		}
+		
 		Phone[] phones = new Phone[3];
 		//System.out.println(phones); // 주소값 출력
 		//System.out.println(phones[0]); // null

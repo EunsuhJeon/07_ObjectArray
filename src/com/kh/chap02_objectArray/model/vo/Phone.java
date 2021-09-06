@@ -54,7 +54,9 @@ public class Phone {
 		return "이름: " + name + ", 브랜드명: " + brand + ", 가격: " + price + ", 시리즈: " + series;
 	}
 	
-	
+	public String toString() {
+		return "이름: " + name + ", 브랜드명: " + brand + ", 가격: " + price + ", 시리즈: " + series;
+	}
 	
 	
 	
